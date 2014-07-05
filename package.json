@@ -1,9 +1,12 @@
 {
   "name": "rel-send",
   "author": "jden <jason@denizac.org>",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "handle routing and sending a rel message",
-  "keywords": ["rel.is", "rel"],
+  "keywords": [
+    "rel.is",
+    "rel"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -14,5 +17,9 @@
   "devDependencies": {
     "chai": "^1.9.1",
     "mocha": "^1.19.0"
+  },
+  "dependencies": {
+    "webfinger": "^0.4.2",
+    "request": "^2.36.0"
   }
 }
